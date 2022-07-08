@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MainWP Sucuri Extension\n"
+"POT-Creation-Date: 2017-10-31 19:16+0100\n"
+"PO-Revision-Date: 2017-10-31 19:21+0100\n"
+"Last-Translator: FreePixel <contact@freepixel.net>\n"
+"Language-Team: FreePixel\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: mainwp-sucuri-extension\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: mainwp-sucuri-extension.php\n"
+"X-Poedit-SearchPath-1: class/mainwp-sucuri-db.class.php\n"
+"X-Poedit-SearchPath-2: class/mainwp-sucuri.class.php\n"
+"X-Poedit-SearchPath-3: cron/bootstrap.php\n"
+"X-Poedit-SearchPath-4: cron/securityscan_notification.php\n"
+
+#: class/mainwp-sucuri.class.php:126 class/mainwp-sucuri.class.php:307
+msgid "Error: Site not found."
+msgstr "Erreur : site introuvable."
+
+#: class/mainwp-sucuri.class.php:150
+msgid ""
+"Note: The Notifications feature uses cron functions in order to work "
+"correctly. If you are experiencing issues having the feature trigger please "
+"review this <a href=\"http://docs.mainwp.com/backups-scheduled-events-"
+"occurring/\" target=\"_blank\">help document.</a>"
+msgstr ""
+"Remarque : la fonction notifications utilise les fonctions cron pour "
+"fonctionner correctement. Si vous rencontrez des problèmes avec le "
+"déclencheur de fonctionnalité, veuillez le consulter <a href=\"http://docs."
+"mainwp.com/backups-scheduled-events-occurring/\" target=\"_blank\">document "
+"d'aide.</a>"
+
+#: class/mainwp-sucuri.class.php:152
+msgid "Remind me if i don't scan my child site for"
+msgstr "Rappelez-moi si je n'analyse pas mon site client pour"
+
+#: class/mainwp-sucuri.class.php:154
+msgid "Never"
+msgstr "Jamais"
+
+#: class/mainwp-sucuri.class.php:155
+msgid "1 Day"
+msgstr "1 jour"
+
+#: class/mainwp-sucuri.class.php:156
+msgid "1 Week"
+msgstr "1 semaine"
+
+#: class/mainwp-sucuri.class.php:157
+msgid "1 Month"
+msgstr "1 mois"
+
+#: class/mainwp-sucuri.class.php:175
+msgid "Verify certificate"
+msgstr "Vérifier le certificat"
+
+#: class/mainwp-sucuri.class.php:175
+msgid ""
+"Verify the SSL certificate. This should be disabled if you are using out of "
+"date or self signed certificates.."
+msgstr ""
+"Vérifiez le certificat SSL. Cela devrait être désactivé si vous utilisez des "
+"certificats périmés ou auto-signés."
+
+#: class/mainwp-sucuri.class.php:178
+msgid "No"
+msgstr "Non"
+
+#: class/mainwp-sucuri.class.php:179
+msgid "Yes"
+msgstr "Oui"
+
+#: class/mainwp-sucuri.class.php:185
+msgid "Run Security Scan"
+msgstr "Exécuter une analyse de sécurité"
+
+#: class/mainwp-sucuri.class.php:197
+msgid "Saved Security Reports"
+msgstr "Rapports de sécurité enregistrés"
+
+#: class/mainwp-sucuri.class.php:207
+msgid "Security Report"
+msgstr "Rapport de sécurité"
+
+#: class/mainwp-sucuri.class.php:211 class/mainwp-sucuri.class.php:476
+#: class/mainwp-sucuri.class.php:541 class/mainwp-sucuri.class.php:554
+#: class/mainwp-sucuri.class.php:567 class/mainwp-sucuri.class.php:580
+msgid "Show"
+msgstr "Afficher"
+
+#: class/mainwp-sucuri.class.php:211
+msgid "Delete"
+msgstr "Supprimer"
+
+#: class/mainwp-sucuri.class.php:219
+msgid "No saved Security Reports."
+msgstr "Aucun rapport de sécurité enregistré."
+
+#: class/mainwp-sucuri.class.php:331
+msgid "Error retrieving the scan report"
+msgstr "Erreur lors de la récupération du rapport d'analyse"
+
+#: class/mainwp-sucuri.class.php:360
+msgid "Error Scan"
+msgstr "Erreur d'analyse"
+
+#: class/mainwp-sucuri.class.php:415
+msgid "Website"
+msgstr "Site Web "
+
+#: class/mainwp-sucuri.class.php:415
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: class/mainwp-sucuri.class.php:415
+msgid "Open"
+msgstr "Ouvrir"
+
+#: class/mainwp-sucuri.class.php:416
+msgid "Status"
+msgstr "Statut"
+
+#: class/mainwp-sucuri.class.php:417
+msgid "Webtrust"
+msgstr "Confiance web "
+
+#: class/mainwp-sucuri.class.php:424
+msgid "Security Scan Report"
+msgstr "Rapport d'analyse de sécurité"
+
+#: class/mainwp-sucuri.class.php:424
+msgid "No Threats Found"
+msgstr "Aucune menace détectée"
+
+#: class/mainwp-sucuri.class.php:450
+msgid "Details"
+msgstr "Détails"
+
+#: class/mainwp-sucuri.class.php:477
+msgid "Web Server Details"
+msgstr "Détails du serveur Web"
+
+#: class/mainwp-sucuri.class.php:480
+msgid "Scan for:"
+msgstr "Analyse pour : "
+
+#: class/mainwp-sucuri.class.php:481
+msgid "Hostname:"
+msgstr "Nom d’hôte : "
+
+#: class/mainwp-sucuri.class.php:482
+msgid "IP address:"
+msgstr "Adresse IP : "
+
+#: class/mainwp-sucuri.class.php:484
+msgid "System Details:"
+msgstr "Détails du système : "
+
+#: class/mainwp-sucuri.class.php:498
+msgid "Web application details:"
+msgstr "Détails de l'application Web : "
+
+#: class/mainwp-sucuri.class.php:518
+msgid "Web application version:"
+msgstr "Version de l'application Web : "
+
+#: class/mainwp-sucuri.class.php:542
+msgid "List of URL Scanned"
+msgstr "Liste des URL analysées "
+
+#: class/mainwp-sucuri.class.php:555
+msgid "List of Javascripts Included"
+msgstr "Liste des Javascripts inclus"
+
+#: class/mainwp-sucuri.class.php:568
+msgid "List of External Javascripts Included"
+msgstr "Liste des Javascripts externes inclus"
+
+#: class/mainwp-sucuri.class.php:581
+msgid "List of iframes Included"
+msgstr "Liste des iframes incluses"
+
+#: class/mainwp-sucuri.class.php:596
+msgid "Blacklisting Status"
+msgstr "Statut de liste noire"
+
+#: class/mainwp-sucuri.class.php:608
+msgid "Reference"
+msgstr "Référence"
+
+#: class/mainwp-sucuri.class.php:635
+msgid "Need Help?"
+msgstr "Besoin d'aide ?"
+
+#: class/mainwp-sucuri.class.php:635
+msgid "Review the Extension"
+msgstr "Donnez votre avis sur l'extension"
+
+#: class/mainwp-sucuri.class.php:635
+msgid "Documentation"
+msgstr "Documentation"
+
+#: class/mainwp-sucuri.class.php:636
+msgid "Show Quick Start Guide"
+msgstr "Afficher Guide de démarrage rapide"
+
+#: class/mainwp-sucuri.class.php:638
+msgid "Security Scan"
+msgstr "Analyse de sécurité"
+
+#: class/mainwp-sucuri.class.php:638
+msgid "Security Scan Notifications"
+msgstr "Notifications d'analyse de sécurité"
+
+#: class/mainwp-sucuri.class.php:638
+msgid "Saving Security Scan Reports"
+msgstr "Enregistrement des rapports d'analyse de sécurité"
+
+#: class/mainwp-sucuri.class.php:638
+msgid "Dismiss"
+msgstr "Ignorer la notification"
+
+#: mainwp-sucuri-extension.php:78
+#, php-format
+msgid ""
+"API not activated check your %sMainWP account%s for updates. For automatic "
+"update notification please activate the API."
+msgstr ""
+"API non activée Vérifiez votre %sMainWP account%s pour les mises à jour. "
+"Pour une notification de mise à jour automatique, veuillez activer l'API."
+
+#: mainwp-sucuri-extension.php:175
+msgid ""
+"This extension does not have the settings page. To use this extension use "
+"the \"Security Scan\" link in the <a href=\"admin.php?page=managesites\" "
+"title=\"Manage Sites\">Manage Sites</a> table. In case you need help, please "
+"review this <a href=\"http://docs.mainwp.com/category/mainwp-extensions/"
+"mainwp-sucuri-extension\" target=\"_blank\">documentation</a>."
+msgstr ""
+"Cette extension n'a pas la page des paramètres. Pour utiliser cette "
+"extension, utilisez le lien \"Analyse de sécurité\" dans tableau <a href="
+"\"admin.php?page=managesites\" title=\"Manage Sites\">Gérer les sites</a>. "
+"Au cas où vous auriez besoin d'aide, veuillez lire cette <a href=\"http://"
+"docs.mainwp.com/category/mainwp-extensions/mainwp-sucuri-extension\" target="
+"\"_blank\">documentation</a>."
+
+#: mainwp-sucuri-extension.php:177
+msgid "The Extension has to be enabled to change the settings."
+msgstr "L'extension doit être activée pour changer les paramètres."
+
+#: mainwp-sucuri-extension.php:195
+msgid ""
+"requires <a href=\"https://mainwp.com\" target=\"_blank\">MainWP Dashboard "
+"Plugin</a> to be activated in order to work. Please install and activate <a "
+"href=\"https://mainwp.com\" target=\"_blank\">MainWP Dashboard Plugin</a> "
+"first."
+msgstr ""
+"requier <a href=\"http://mainwp.com/\" target=\"_blank\">l'extension de "
+"tableau de bord MainWP</a> être activé pour travailler. Veuillez installer "
+"et activer <a href=\"http://mainwp.com/\" target=\"_blank\">l'extension de "
+"tableau de bord MainWP</a> en premier."

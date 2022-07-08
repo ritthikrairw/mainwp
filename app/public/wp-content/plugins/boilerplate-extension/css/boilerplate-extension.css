@@ -1,0 +1,6 @@
+.field.postbox-container {
+  width: 100%;
+}
+a.bpl_post_add_token {
+  cursor: pointer!important;
+}

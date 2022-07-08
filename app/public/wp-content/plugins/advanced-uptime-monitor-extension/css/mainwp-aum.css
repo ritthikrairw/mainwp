@@ -1,0 +1,233 @@
+
+.mainwp-number-circle {
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+}
+.mainwp-number-circle.green { border: 5px solid #7fb100; }
+.mainwp-number-circle.red { border: 5px solid #a00; }
+.mainwp-number-circle.yellow { border: 5px solid #fbbd08; }
+.mainwp-number-circle.orange { border: 5px solid #f2711c; }
+.mainwp-number-circle { border: 5px solid #767676; }
+.mainwp-number-circle {  }
+.mainwp-number-circle {  }
+.mainwp-number-circle {  }
+
+/* General Styles */
+
+.aum-monitor-status {
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 3px;
+	width: 70px !important;
+}
+
+.aum_monitors_list .down,
+.statistics_table .down,
+.aum-monitor-status.down,
+.aum_upm_color_info.down{
+	background-color: #a00 !important;
+	color: #fff !important;
+}
+.aum_monitors_list .up,
+.statistics_table .up,
+.aum-monitor-status.up,
+.aum_upm_color_info.up {
+	background-color: #7FB100 !important;
+	color: #fff !important;
+}
+.aum_monitors_list .paused,
+.statistics_table .paused,
+.aum-monitor-status.paused,
+.aum_upm_color_info.paused{
+	background-color: #1c1d1b !important;
+	color: #fff !important;
+}
+.aum_monitors_list .started,
+.statistics_table .started,
+.aum-monitor-status.started,
+.aum_upm_color_info.started,
+.aum_monitors_list .seems_down,
+.statistics_table .seems_down,
+.aum-monitor-status.seems_down,
+.aum_upm_color_info.seems_down {
+	background-color: #ffcc00 !important;
+	color: #fff !important;
+}
+.aum_monitors_list .not_checked,
+.statistics_table .not_checked,
+.aum-monitor-status.not_checked,
+.aum_upm_color_info.not_checked{
+	background-color: #eee !important;
+	color: #fff !important;
+}
+
+.aum-monitor-status.configuration_error{
+	background-color: #3498db !important;
+	color: #fff !important;
+}
+
+.aum_reports_today .dns_time{
+	background-color: #a00 !important;
+	color: #fff !important;
+}
+.aum_reports_today .response_time{
+	background-color: #7FB100 !important;
+	color: #fff !important;
+}
+.aum_reports_today .connection_time{
+	background-color: #1c1d1b !important;
+	color: #fff !important;
+}
+
+
+/* Uptime Robot Settings */
+
+
+/* Monitors */
+
+.aum_monitors_list div {
+	height: 1em;
+	float: right;
+	margin-top: 5px;
+}
+
+ul.mainwp-last24-hours {
+	margin: 0;
+}
+
+ul.mainwp-last24-hours li {
+	display: inline;
+	width: 2%;
+}
+.stratch-hours {
+	width: 100%;
+	text-align: center;
+ 	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.url_actions i {
+	cursor: pointer;
+}
+
+/* Uptime Monitoring */
+
+
+/* Events */
+
+.aum_tbl_events thead th {
+    background: #f5f5f5;
+    padding: 10px;
+	text-align: left;
+}
+
+.aum_tbl_events tbody td {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+/* Widget */
+
+
+/* Popups */
+
+div[aria-describedby="aum-popup-box"] {
+	width: 60% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aum_popup {
+	position:absolute;
+	left:30px;
+	top:75px;
+	overflow:hidden;
+	z-index: 10;
+}
+
+#aum-popup-box {
+	height: 550px !important;
+	padding: 20px;
+}
+
+#aum-popup-box input[type="text"] {
+	width: 300px;
+	padding: 3px 5px !important;
+}
+
+.monitor_subtype, .url_monitor_keywordtype, .url_monitor_keywordvalue {
+	display:none;
+}
+
+.started_log {
+	height: 16px;
+	width: 2px;
+	margin-right: 2px;
+}
+
+.uptime_monitor_popup {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mainwp-aum-input-checkbox {
+  vertical-align: middle !important;
+}
+.mainwp-aum-input-select {
+  padding: .3rem 1rem !important;
+  background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55% !important;
+}
+/*
+    Administration stylesheet
+*/
+.aum_mainwp_monitor_actions_loading {
+	display:  none;
+}
+
+.aum-min-width .ui.dropdown.selection{
+    min-width: 4em;
+}
+/*------------------------------------------------*/
+/*---------------[RESPONSIVE LAYOUTS]-------------*/
+/*------------------------------------------------*/
+
+@media only screen and ( max-width: 1300px ) {
+
+}
+
+@media only screen and ( min-width: 1101px ) {
+
+}
+
+@media only screen and ( min-width: 981px ) and ( max-width: 1100px ) {
+
+}
+
+@media only screen and ( max-width: 980px ) {
+
+}
+
+@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+
+}
+
+@media screen and ( max-width: 768px ) {
+	.aum-monitors-tbl { width: 100%; }
+	.aum-monitors-tbl thead th { display: none !important; }
+	.aum-monitors-tbl tfoot th { display: none !important; }
+	.aum-monitors-tbl tbody tr td { display: block !important; text-align: center !important; }
+	.aum-monitors-tbl tbody tr { width: 100% !important; display: block; }
+
+	#aum-events-table { width: 100%; }
+	#aum-events-table thead th { display: none !important; }
+	#aum-events-table tfoot th { display: none !important; }
+	#aum-events-table tbody tr td { display: block !important; text-align: center !important; }
+	#aum-events-table tbody tr { width: 100% !important; display: block; }
+}

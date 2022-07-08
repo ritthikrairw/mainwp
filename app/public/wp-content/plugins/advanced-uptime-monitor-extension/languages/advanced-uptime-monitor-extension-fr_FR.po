@@ -1,0 +1,880 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Uptime Monitor Extension v3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-31 17:02+0100\n"
+"PO-Revision-Date: 2017-11-27 16:34+0100\n"
+"Last-Translator: FreePixel <contact@freepixel.net>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: advanced-uptime-monitor-extension\n"
+"X-Poedit-SearchPath-0: advanced-uptime-monitor-extension.php\n"
+"X-Poedit-SearchPath-1: wp_mvc.php\n"
+"X-Poedit-SearchPath-2: app/classes/uptimerobot-db.php\n"
+"X-Poedit-SearchPath-3: app/classes/uptimerobot.php\n"
+"X-Poedit-SearchPath-4: app/config/bootstrap.php\n"
+"X-Poedit-SearchPath-5: app/config/routes.php\n"
+"X-Poedit-SearchPath-6: app/controllers/uptime_monitors_controller.php\n"
+"X-Poedit-SearchPath-7: app/controllers/admin/"
+"admin_uptime_monitors_controller.php\n"
+"X-Poedit-SearchPath-8: app/models/uptime_monitor.php\n"
+"X-Poedit-SearchPath-9: app/models/uptime_stats.php\n"
+"X-Poedit-SearchPath-10: app/models/uptime_url.php\n"
+"X-Poedit-SearchPath-11: app/views/admin/error.php\n"
+"X-Poedit-SearchPath-12: app/views/admin/get_urls.php\n"
+"X-Poedit-SearchPath-13: app/views/admin/meta_box.php\n"
+"X-Poedit-SearchPath-14: app/views/admin/option_page.php\n"
+"X-Poedit-SearchPath-15: app/views/admin/statistics_table.php\n"
+"X-Poedit-SearchPath-16: app/views/admin/url_form.php\n"
+"X-Poedit-SearchPath-17: app/views/admin/layouts/ajax_clean.php\n"
+"X-Poedit-SearchPath-18: app/views/admin/layouts/ajax_popup.php\n"
+"X-Poedit-SearchPath-19: core/mvc_configuration.php\n"
+"X-Poedit-SearchPath-20: core/mvc_directory.php\n"
+"X-Poedit-SearchPath-21: core/mvc_dispatcher.php\n"
+"X-Poedit-SearchPath-22: core/mvc_error.php\n"
+"X-Poedit-SearchPath-23: core/mvc_file_includer.php\n"
+"X-Poedit-SearchPath-24: core/mvc_file.php\n"
+"X-Poedit-SearchPath-25: core/mvc_inflector.php\n"
+"X-Poedit-SearchPath-26: core/mvc_model_registry.php\n"
+"X-Poedit-SearchPath-27: core/mvc_object_registry.php\n"
+"X-Poedit-SearchPath-28: core/mvc_plugin_loader.php\n"
+"X-Poedit-SearchPath-29: core/mvc_router.php\n"
+"X-Poedit-SearchPath-30: core/mvc_settings_registry.php\n"
+"X-Poedit-SearchPath-31: core/mvc_settings.php\n"
+"X-Poedit-SearchPath-32: core/mvc_templater.php\n"
+"X-Poedit-SearchPath-33: core/console/color.php\n"
+"X-Poedit-SearchPath-34: core/console/progress_bar.php\n"
+"X-Poedit-SearchPath-35: core/console/table.php\n"
+"X-Poedit-SearchPath-36: core/controllers/mvc_admin_controller.php\n"
+"X-Poedit-SearchPath-37: core/controllers/mvc_controller.php\n"
+"X-Poedit-SearchPath-38: core/controllers/mvc_public_controller.php\n"
+"X-Poedit-SearchPath-39: core/helpers/mvc_form_helper.php\n"
+"X-Poedit-SearchPath-40: core/helpers/mvc_form_tags_helper.php\n"
+"X-Poedit-SearchPath-41: core/helpers/mvc_helper.php\n"
+"X-Poedit-SearchPath-42: core/helpers/mvc_html_helper.php\n"
+"X-Poedit-SearchPath-43: core/loaders/mvc_admin_loader.php\n"
+"X-Poedit-SearchPath-44: core/loaders/mvc_loader.php\n"
+"X-Poedit-SearchPath-45: core/loaders/mvc_public_loader.php\n"
+"X-Poedit-SearchPath-46: core/models/mvc_data_validation_error.php\n"
+"X-Poedit-SearchPath-47: core/models/mvc_data_validator.php\n"
+"X-Poedit-SearchPath-48: core/models/mvc_database_adapter.php\n"
+"X-Poedit-SearchPath-49: core/models/mvc_database.php\n"
+"X-Poedit-SearchPath-50: core/models/mvc_model_object.php\n"
+"X-Poedit-SearchPath-51: core/models/mvc_model.php\n"
+"X-Poedit-SearchPath-52: core/models/wp_models/mvc_comment_meta.php\n"
+"X-Poedit-SearchPath-53: core/models/wp_models/mvc_comment.php\n"
+"X-Poedit-SearchPath-54: core/models/wp_models/mvc_post_adapter.php\n"
+"X-Poedit-SearchPath-55: core/models/wp_models/mvc_post_meta.php\n"
+"X-Poedit-SearchPath-56: core/models/wp_models/mvc_post.php\n"
+"X-Poedit-SearchPath-57: core/models/wp_models/mvc_user_meta.php\n"
+"X-Poedit-SearchPath-58: core/models/wp_models/mvc_user.php\n"
+"X-Poedit-SearchPath-59: core/pluggable/helpers/form_helper.php\n"
+"X-Poedit-SearchPath-60: core/pluggable/helpers/html_helper.php\n"
+"X-Poedit-SearchPath-61: core/pluggable/views/admin/layouts/admin.php\n"
+"X-Poedit-SearchPath-62: core/pluggable/views/layouts/public.php\n"
+"X-Poedit-SearchPath-63: core/shells/destroy_shell.php\n"
+"X-Poedit-SearchPath-64: core/shells/generate_shell.php\n"
+"X-Poedit-SearchPath-65: core/shells/help_shell.php\n"
+"X-Poedit-SearchPath-66: core/shells/mvc_shell_dispatcher.php\n"
+"X-Poedit-SearchPath-67: core/shells/mvc_shell.php\n"
+"X-Poedit-SearchPath-68: core/templates/plugin/plugin_loader.php\n"
+"X-Poedit-SearchPath-69: core/templates/plugin/plugin.php\n"
+"X-Poedit-SearchPath-70: core/templates/plugin/app/admin_controller.php\n"
+"X-Poedit-SearchPath-71: core/templates/plugin/app/model.php\n"
+"X-Poedit-SearchPath-72: core/templates/plugin/app/public_controller.php\n"
+"X-Poedit-SearchPath-73: core/templates/plugin/app/widget.php\n"
+"X-Poedit-SearchPath-74: core/templates/plugin/app/views/show.php\n"
+"X-Poedit-SearchPath-75: core/templates/plugin/app/views/admin/add.php\n"
+"X-Poedit-SearchPath-76: core/templates/plugin/app/views/admin/edit.php\n"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:158
+#: advanced-uptime-monitor-extension.php:178
+msgid "First Steps with Extensions"
+msgstr "Premières étapes avec les extensions"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:163
+msgid "Advanced Uptime Monitor Extension"
+msgstr "Monitoring Uptime Robot"
+
+#: advanced-uptime-monitor-extension.php:179
+msgid ""
+"If you are having issues with getting started with the MainWP extensions, "
+"please review following help documents"
+msgstr ""
+"Si vous rencontrez des problèmes avec les extensions MainWP, veuillez "
+"consulter les documents d'aide suivants"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:180
+msgid "What are the MainWP Extensions"
+msgstr "Quelles sont les extensions MainWP"
+
+#: advanced-uptime-monitor-extension.php:181
+msgid "Order Extension(s)"
+msgstr "Commande extension(s)"
+
+#: advanced-uptime-monitor-extension.php:182
+msgid "My Downloads and API Keys"
+msgstr "Mes téléchargements et clés d'API"
+
+#: advanced-uptime-monitor-extension.php:183
+msgid "Install Extension(s)"
+msgstr "Installer lextension(s)"
+
+#: advanced-uptime-monitor-extension.php:184
+msgid "Activate Extension(s) API"
+msgstr "Activer API extension(s)"
+
+#: advanced-uptime-monitor-extension.php:185
+msgid "Updating Extension(s)"
+msgstr "Mise à jour d'extension(s)"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:186
+msgid "Remove Extension(s)"
+msgstr "Supprimer extension(s)"
+
+#: advanced-uptime-monitor-extension.php:187
+msgid "Help Documenation for all MainWP Extensions"
+msgstr "Documentation d'aide pour toutes les extensions MainWP"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:189
+msgid "MainWP Advanced Uptime Monitor Extension"
+msgstr "MainWP Advanced Uptime Monitor Extension"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:190
+#: advanced-uptime-monitor-extension.php:1469
+msgid "Advanced Uptime Monitor"
+msgstr "Monitoring Uptime Robot"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:191
+msgid "Create Uptime Robot API Key"
+msgstr "Créer une clé API Uptime Robot"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:192
+msgid "Connect your Uptime Robot Account"
+msgstr "Connectez votre compte Uptime Robot"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:193
+msgid "Create New Monitor"
+msgstr "Créer un monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:194
+msgid "Edit Monitor"
+msgstr "Éditer le monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:195
+msgid "Start-Pause Monitor"
+msgstr "Démarrer/Mettre en pause le monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:196
+msgid "Monitor Statistics"
+msgstr "Statistiques des monitorings"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:197
+msgid "Display Monitors in Dashboard Widget"
+msgstr "Afficher un monitoring dans le widget de Tableau de bord"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:198
+msgid "Delete Monitor"
+msgstr "Supprimer le monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:213
+msgid "Uptime Status"
+msgstr "Statut Uptime"
+
+#: advanced-uptime-monitor-extension.php:290
+msgid "Check for updates now"
+msgstr "Vérifier les mises à jour maintenant"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:312
+msgid "Settings have been saved."
+msgstr "Les paramètres ont été sauvegardés."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:318
+msgid "Uptime Robot data has been reloaded."
+msgstr "Les données d’Uptime Robot ont été rechargées."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:337
+msgid "Uptime Robot main API Key"
+msgstr "Clé API principale Uptime Robot"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:341
+msgid "Not sure how to get the Uptime Robot API key?"
+msgstr "Vous ne savez pas comment obtenir la clé API Uptime Robot ?"
+
+#: advanced-uptime-monitor-extension.php:341
+msgid "Click here to find out!"
+msgstr "Cliquez ici pour en savoir plus !"
+
+#: advanced-uptime-monitor-extension.php:345
+msgid "Default Alert Contact"
+msgstr "Contact par défaut pour les alertes"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:363
+msgid "No items found! Check your Uptime Robot Settings."
+msgstr "Aucun élément trouvé ! Vérifiez vos paramètres Uptime Robot."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:370
+msgid "Timezone:"
+msgstr "Fuseau horaire : "
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:386
+msgid "Save Settings"
+msgstr "Sauvegarder les réglages"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:388
+msgid "Reload Uptime Robot Data"
+msgstr "Recharger les données d’Uptime Robot"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:396
+msgid ""
+"By pressing \"Save Settings\" you will reload all Uptime Robot monitor sites "
+"and notification contacts assigned with this main API Key."
+msgstr ""
+"En appuyant sur \"Sauvegarder les réglages\" vous rechargez tous les sites "
+"monitorés par Uptime Robot et notifierez les contacts affectés à la clé API "
+"principale."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:397
+msgid ""
+"Use the \"Reload Uptime Robot Data\" to make sure that newest data is loaded "
+"to your extension."
+msgstr ""
+"Utiliser \"Recharger les données d’Uptime Robot\" pour charger les dernières "
+"données de votre extension."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:418
+msgid "Add New Monitor"
+msgstr "Ajouter un nouveau monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:422
+msgid ""
+"To Add New Monitors or to see existing ones, please enter your Uptime Robot "
+"API key in the Uptime Robot API Key Settings."
+msgstr ""
+"Pour ajouter de nouveaux monitorings ou pour voir ceux qui existent déjà, "
+"merci de saisir votre clé API dans les réglages d'Uptime Robot."
+
+#: advanced-uptime-monitor-extension.php:431 app/views/admin/get_urls.php:56
+msgid "Loading data..."
+msgstr "Chargement des données…"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:461
+msgid "No Monitors found"
+msgstr "Aucun monitoring trouvé"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:462
+msgid ""
+"If you are experiencing issues with the monitors displaying, try "
+"deactivating and re-activating the extension directly from the WordPress "
+"Plugins screen and resaving Uptime Robot settings."
+msgstr ""
+"Si vous rencontrez des problèmes avec l'affichage des monitorings, essayez "
+"de désactiver et de réactiver l'extension directement à partir de l'écran "
+"des extensions WordPress et de réenregistrer les paramètres Uptime Robot."
+
+#: advanced-uptime-monitor-extension.php:520
+#: advanced-uptime-monitor-extension.php:612
+msgid "Event"
+msgstr "Évènement"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:521
+#: advanced-uptime-monitor-extension.php:613
+#: app/views/admin/statistics_table.php:4
+msgid "Monitor"
+msgstr "Monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:522
+#: advanced-uptime-monitor-extension.php:614
+#: advanced-uptime-monitor-extension.php:924
+#: app/views/admin/statistics_table.php:53
+msgid "Date / Time"
+msgstr "Date / Heure"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:523
+#: advanced-uptime-monitor-extension.php:615
+#: advanced-uptime-monitor-extension.php:921
+#: app/views/admin/statistics_table.php:52
+msgid "Details"
+msgstr "Détails"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:524
+#: advanced-uptime-monitor-extension.php:616
+msgid "Duration"
+msgstr "Durée"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:538
+#: advanced-uptime-monitor-extension.php:557
+#: advanced-uptime-monitor-extension.php:585
+#: advanced-uptime-monitor-extension.php:683
+#: advanced-uptime-monitor-extension.php:902
+#: advanced-uptime-monitor-extension.php:939
+#: advanced-uptime-monitor-extension.php:957
+#: app/views/admin/statistics_table.php:25
+#: app/views/admin/statistics_table.php:67
+#: app/views/admin/statistics_table.php:86
+msgid "Paused"
+msgstr "En pause"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:541
+#: advanced-uptime-monitor-extension.php:551
+#: advanced-uptime-monitor-extension.php:579
+#: advanced-uptime-monitor-extension.php:905
+#: advanced-uptime-monitor-extension.php:942
+#: advanced-uptime-monitor-extension.php:951
+#: app/views/admin/statistics_table.php:28
+#: app/views/admin/statistics_table.php:70
+#: app/views/admin/statistics_table.php:80
+msgid "Started"
+msgstr "A débuté"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:554
+#: advanced-uptime-monitor-extension.php:679
+#: advanced-uptime-monitor-extension.php:954
+#: app/views/admin/statistics_table.php:83
+msgid "Up"
+msgstr "En marche"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:560
+#: advanced-uptime-monitor-extension.php:680
+#: advanced-uptime-monitor-extension.php:960
+#: app/views/admin/statistics_table.php:89
+msgid "Down"
+msgstr "En panne"
+
+#: advanced-uptime-monitor-extension.php:582
+msgid "Ok"
+msgstr "OK"
+
+#: advanced-uptime-monitor-extension.php:681
+msgid "Not checked"
+msgstr "Non vérifié"
+
+#: advanced-uptime-monitor-extension.php:682
+msgid "Seems off"
+msgstr "Semble éteint"
+
+#: advanced-uptime-monitor-extension.php:712
+msgid "Overal Uptime"
+msgstr "État du service"
+
+#: advanced-uptime-monitor-extension.php:725
+msgid "Last Downtime"
+msgstr "Dernier arrêt du serveur"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:879
+msgid "Monitor Name:"
+msgstr "Nom du monitoring : "
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:883
+msgid "Monitor URL:"
+msgstr "URL du monitoring : "
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:887
+#: app/views/admin/statistics_table.php:6
+msgid "Monitor Type:"
+msgstr "Type de monitoring : "
+
+#: advanced-uptime-monitor-extension.php:891
+msgid "Current Status:"
+msgstr "Statut actuel : "
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:918 app/views/admin/meta_box.php:9
+#: app/views/admin/option_page.php:42 app/views/admin/option_page.php:155
+#: app/views/admin/statistics_table.php:51
+msgid "Status"
+msgstr "Statut"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:969
+msgid "The monitor started manually"
+msgstr "Le monitoring est débuté manuellement"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:972
+#: app/views/admin/statistics_table.php:101
+msgid "Successful response received."
+msgstr "Réponse positive reçue."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:975
+#: app/views/admin/statistics_table.php:104
+msgid "The monitor is paused manually"
+msgstr "Le monitoring est en pause manuellement"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:979
+#: app/views/admin/statistics_table.php:108
+msgid "The keyword exists."
+msgstr "Le mot-clé existe."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:981
+msgid "No response from the website."
+msgstr "Pas de réponse du site Web."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1174
+#: advanced-uptime-monitor-extension.php:1218
+msgid "Please enter your Uptime monitor API key."
+msgstr "Merci de saisir votre clé API Uptime monitor."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1185
+msgid "Uptime Robot undefined error."
+msgstr "Erreur indéfinie d'Uptime Robot."
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1238
+msgid "Uptime Robot undefined error"
+msgstr "Erreur indéfinie d'Uptime Robot"
+
+#: advanced-uptime-monitor-extension.php:1273
+msgid "Loading monitors..."
+msgstr "Chargement des monitorings…"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1307
+#: advanced-uptime-monitor-extension.php:1310
+#: advanced-uptime-monitor-extension.php:1313
+#: advanced-uptime-monitor-extension.php:1316
+#: advanced-uptime-monitor-extension.php:1319
+msgid "Uptime ratio: "
+msgstr "Disponibilité : "
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1415
+msgid "Uptime Robot API Key Settings"
+msgstr "Réglages de la clé API d’Uptime Robot"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1424
+msgid "Uptime monitoring"
+msgstr "Monitoring Uptime"
+
+#: advanced-uptime-monitor-extension.php:1433
+msgid "Recent events"
+msgstr "Évènements récents"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1442
+msgid "Monitors"
+msgstr "Monitorings"
+
+# @ advanced-uptime-monitor-extension
+#: advanced-uptime-monitor-extension.php:1456
+msgid "The extension has to be enabled to change the settings."
+msgstr "L'extension doit être activée pour changer les paramètres."
+
+# @ default
+#: advanced-uptime-monitor-extension.php:1492
+msgid ""
+"requires <a href=\"http://mainwp.com/\" target=\"_blank\">MainWP Dashboard "
+"Plugin</a> to be activated in order to work. Please install and activate <a "
+"href=\"http://mainwp.com/\" target=\"_blank\">MainWP Dashboard Plugin</a> "
+"first."
+msgstr ""
+"requiert <a href=\"http://mainwp.com/\" target=\"_blank\">l’extension "
+"Tableau de bord MainWP</a> activée pour fonctionner. Merci d’installer et "
+"d’activer <a href=\"http://mainwp.com/\" target=\"_blank\">l’extension "
+"Tableau de bord MainWP</a> en premier."
+
+# @ advanced-uptime-monitor-extension
+#: app/controllers/admin/admin_uptime_monitors_controller.php:773
+msgid "Unable to load Uptime monitor data"
+msgstr "Impossible de charger les données d'Uptime Monitor"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:8 app/views/admin/option_page.php:41
+#: app/views/admin/option_page.php:154
+msgid "Site / Monitor"
+msgstr "Site / Monitoring"
+
+#: app/views/admin/meta_box.php:10 app/views/admin/option_page.php:43
+#: app/views/admin/option_page.php:156
+msgid "Type"
+msgstr "Type "
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:11 app/views/admin/option_page.php:49
+#: app/views/admin/option_page.php:162
+msgid "Uptime Ratio"
+msgstr "Disponibilité"
+
+#: app/views/admin/meta_box.php:49 app/views/admin/option_page.php:170
+msgid "Total: "
+msgstr "Total : "
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:49 app/views/admin/option_page.php:170
+msgid " monitors"
+msgstr " monitorings"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:73
+msgid "See all Monitors "
+msgstr "Voir tous les monitorings"
+
+#: app/views/admin/meta_box.php:80
+msgid ""
+"No monitors have been created yet or set to show in the widget. If you have "
+"monitors created but not showing here, please set monitors to show in "
+"Overview Widget."
+msgstr ""
+"Aucun monitoring n'a encore été créé ou configuré pour s'afficher dans le "
+"widget. Si vous avez créé des monitorings mais qu'ils ne s'affichent pas "
+"ici, veuillez définir les monitorings à afficher dans le widget aperçu."
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:82
+msgid "Add monitors to the widget or Create New Monitors"
+msgstr "Ajouter les monitorings au widget ou créer de nouveaux monitorings"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:87
+msgid "Monitor has not been created for the child site."
+msgstr "Le monitoring n'a pas été créé pour le site client."
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/meta_box.php:89 app/views/admin/url_form.php:262
+msgid "Create Monitor"
+msgstr "Créer un Monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/option_page.php:9
+msgid "Bulk Actions"
+msgstr "Actions groupées"
+
+#: app/views/admin/option_page.php:10
+msgid "Display in Overview Widget"
+msgstr "Afficher dans le widget aperçu"
+
+#: app/views/admin/option_page.php:11
+msgid "Hide in Overview Widget"
+msgstr "Masquer dans le widget d'aperçu"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/option_page.php:12
+msgid "Start"
+msgstr "Débuter"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/option_page.php:13
+msgid "Pause"
+msgstr "Pause"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/option_page.php:14
+msgid "Delete"
+msgstr "Supprimer"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/option_page.php:16
+msgid "Apply"
+msgstr "Appliquer"
+
+#: app/views/admin/option_page.php:50 app/views/admin/option_page.php:163
+msgid "Widget"
+msgstr "Widget"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/option_page.php:51 app/views/admin/option_page.php:164
+msgid "Actions"
+msgstr "Actions"
+
+#: app/views/admin/option_page.php:62
+msgid "Please wait..."
+msgstr "Merci de patienter…"
+
+#: app/views/admin/option_page.php:191
+msgid "You have no monitors yet."
+msgstr "Vous n'avez pas encore de monitoring."
+
+#: app/views/admin/option_page.php:192
+msgid ""
+"If you have monitors created but not showing here, please try to resave your "
+"Uptime Robot API key."
+msgstr ""
+"Si vous avez créé des monitorings mais pas affichés ici, essayez de "
+"réenregistrer votre clé API Uptime Robot."
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/statistics_table.php:5
+msgid "Monitor URL"
+msgstr "URL du monitoring : "
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/statistics_table.php:7
+msgid "Monitor Status:"
+msgstr "Statut du monitoring : "
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/statistics_table.php:98
+msgid "The monitor is started manually"
+msgstr "Le monitoring est débuté manuellement"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/statistics_table.php:110
+msgid "No Response From The Website."
+msgstr "Pas de réponse du site Web."
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/statistics_table.php:130
+msgid "Previous"
+msgstr "Précédent"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/statistics_table.php:136
+msgid "Next"
+msgstr "Suivant"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:85
+msgid "Load Child Site"
+msgstr "Chargez les sites clients"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:91
+msgid "Monitor Information"
+msgstr "Information monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:94
+msgid "Monitor Type"
+msgstr "Type de monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:107
+msgid "Monitor Subtype"
+msgstr "Sous-type de monitoring"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:129
+msgid "Alert When:"
+msgstr "Alerter quand : "
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:131
+msgid "exists"
+msgstr "existe"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:132
+msgid "not exists"
+msgstr "n'existe pas"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:137
+msgid "Keyword:"
+msgstr "Mot-clé : "
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:157 app/views/admin/url_form.php:164
+msgid "Friendly Name"
+msgstr "Nom familier"
+
+#: app/views/admin/url_form.php:178
+msgid "URL (or IP)"
+msgstr "URL (ou IP)"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:191
+msgid "Monitor API key:"
+msgstr "Clé API de monitoring : "
+
+#: app/views/admin/url_form.php:196
+msgid "Monitoring Interval"
+msgstr "Intervalle de surveillance"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:214
+msgid "Select Alert Contacts to Notify"
+msgstr "Sélectionner les contacts à notifier pour les alertes"
+
+#: app/views/admin/url_form.php:238
+msgid ""
+"New alert contacts can be defined from the \"My Settings\" page on your "
+"Uptime Robot account."
+msgstr ""
+"De nouveaux contacts d'alerte peuvent être définis depuis la page \"Mes "
+"paramètres\" de votre compte Uptime Robot."
+
+#: app/views/admin/url_form.php:241
+msgid "HTTP Basic Authentication Settings"
+msgstr "Paramètres d'authentification de base HTTP"
+
+#: app/views/admin/url_form.php:243
+msgid "HTTP Username (Optional)"
+msgstr "Nom d'utilisateur HTTP (facultatif)"
+
+#: app/views/admin/url_form.php:246 app/views/admin/url_form.php:253
+msgid ""
+"Use only if your child site is protected with HTTP Basic Authentication. Not "
+"required for Ping and Port monitor types."
+msgstr ""
+"Utilisez uniquement si votre site client est protégé avec l'authentification "
+"HTTP de base. Non requis pour les types de monitoring Ping et Port."
+
+#: app/views/admin/url_form.php:250
+msgid "HTTP Password (Optional)"
+msgstr "Mot de passe HTTP (facultatif)"
+
+# @ advanced-uptime-monitor-extension
+#: app/views/admin/url_form.php:262
+msgid "Save Monitor"
+msgstr "Sauvegarder le Monitoring"
+
+# @ default
+#: core/models/wp_models/mvc_post_adapter.php:100
+msgid "Add New "
+msgstr "Ajouter une catégorie de magasin"
+
+# @ default
+#: core/models/wp_models/mvc_post_adapter.php:101
+msgid "Edit "
+msgstr "Éditer"
+
+# @ default
+#: core/models/wp_models/mvc_post_adapter.php:102
+msgid "New "
+msgstr "Nouveau "
+
+# @ default
+#: core/models/wp_models/mvc_post_adapter.php:103
+msgid "All "
+msgstr "Tous "
+
+# @ default
+#: core/models/wp_models/mvc_post_adapter.php:104
+msgid "View "
+msgstr "Voir "
+
+# @ default
+#: core/models/wp_models/mvc_post_adapter.php:105
+msgid "Search "
+msgstr "Rechercher "
+
+#: core/models/wp_models/mvc_post_adapter.php:106
+#: core/models/wp_models/mvc_post_adapter.php:107
+msgid "No "
+msgstr "Non "
+
+# @ advanced-uptime-monitor-extension
+#~ msgid ""
+#~ "API not activated check your %sMainWP account%s for updates. For "
+#~ "automatic update notification please activate the API."
+#~ msgstr ""
+#~ "API non activée, vérifiez votre %scompte MainWP%s pour recevoir les mises "
+#~ "à jour. Pour recevoir les notifications merci d’activer l’API."
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Requires click on Save Settings to reload new added monitor(s)."
+#~ msgstr ""
+#~ "Vous devez cliquer sur Enregistrer les paramètres pour recharger le "
+#~ "monitoring ajouté."
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Sign Up for API Key"
+#~ msgstr "Inscription pour la clé API"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Monitor Notification default Email:"
+#~ msgstr "Contact par défaut pour les notification de monitoring : "
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Need Help?"
+#~ msgstr "Besoin d'aide ?"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Show Quick Start Guide"
+#~ msgstr "Afficher Guide de démarrage rapide"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Quick Start"
+#~ msgstr "Démarrage rapide"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Dismiss"
+#~ msgstr "Fermer"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "No monitors set to display in the Widget"
+#~ msgstr "Pas de monitorings à afficher dans le Widget"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Display on Dashboard"
+#~ msgstr "Afficher au Tableau de bord"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid "Hide on Dashboard"
+#~ msgstr "Masquer du Tableau de bord"
+
+# @ advanced-uptime-monitor-extension
+#~ msgid ""
+#~ "This option will populate fields for the first available child site that "
+#~ "is not already added to monitors."
+#~ msgstr ""
+#~ "Cette option remplira les champs pour le premier site client disponible "
+#~ "qui n'est pas déjà ajouté aux monitorings."
+
+# @ default
+#~ msgctxt ""
+#~ msgid "Add New"
+#~ msgstr "Ajouter nouveau"
+
+# @ default
+#~ msgid "No  found"
+#~ msgstr "Non trouvé"
+
+# @ default
+#~ msgid "No  found in Trash"
+#~ msgstr "Non trouvé dans la corbeille"

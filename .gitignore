@@ -1,10 +1,7 @@
 ### Docker and system
 .env
-app
 system/logs
 system/data
-shared/uploads/*
-!shared/uploads/.gitkeep
 
 # ignore WordPress
 app/public/wp-config.php

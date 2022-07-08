@@ -1,0 +1,22 @@
+.ui.virusdie.button {
+  background-color: #00b083 !important;
+  color: #fff !important;
+}
+
+.ui.virusdie.basic.button {
+  box-shadow: 0 0 0 1px #00b083 inset !important;
+  color: #00b083 !important;
+}
+
+.ui.virusdie.basic.label {
+  border: 1px solid #00b083 !important;
+  color: #00b083 !important;
+}
+
+.ui.virusdie.icon {
+  color: #00b083 !important;
+}
+
+#mainwp-virusdie-sites a {
+  color: #00b083;
+}
