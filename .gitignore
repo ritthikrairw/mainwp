@@ -1,0 +1,62 @@
+### Docker and system
+.env
+app
+system/logs
+system/data
+shared/uploads/*
+!shared/uploads/.gitkeep
+
+# ignore WordPress
+app/public/wp-config.php
+app/public/wp-content/cache
+## app/public/wp-content/themes/twenty*
+app/public/wp-content/uploads/wc-logs
+app/public/wp-content/uploads/wp-migrate-db*
+
+# ignore Plugins
+app/public/wp-content/ai1wm-backups
+app/public/wp-content/plugins/what-the-file
+app/public/wp-content/plugins/query-monitor
+app/public/wp-content/plugins/wp-migrate-db
+app/public/wp-content/plugins/all-in-one-wp-migration
+app/public/wp-content/languages/plugins/all-in-one-wp-migration*
+app/public/wp-content/mu-plugins/wp-migrate-db-pro-compatibility.php
+
+# ignore Backup
+app/public/wp-content/backup*
+app/public/wp-content/uploads/backwpup-*
+
+# etc.
+app/public/wp-content/uploads/rsssl
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.DS_Store
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

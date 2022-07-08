@@ -1,0 +1,45 @@
+# Upstream to abstract backend connection(s) for php
+upstream php {
+    server php:9000;
+}
+
+server {
+    listen      80;
+    listen      [::]:80;
+    server_name ${NGINX_SERVER_NAME};
+    set         $base /var/www/html;
+    root        $base;
+
+    # security
+    include     includes/security.conf;
+
+    # logging
+    access_log          /var/log/nginx/${NGINX_SERVER_NAME}.access.log;
+    error_log           /var/log/nginx/${NGINX_SERVER_NAME}.error.log warn;
+
+    # index.php
+    index       index.php;
+
+    # index.php fallback
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    # additional config
+    include includes/general.conf;
+    include includes/wordpress.conf;
+
+    # handle .php
+    location ~ \.php$ {
+        fastcgi_pass php;
+        include      includes/php_fastcgi.conf;
+    }
+}
+
+# subdomains redirect
+server {
+    listen      80;
+    listen      [::]:80;
+    server_name *.${NGINX_SERVER_NAME};
+    return      301 http://${NGINX_SERVER_NAME}$request_uri;
+}

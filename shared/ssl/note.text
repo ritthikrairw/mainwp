@@ -1,0 +1,18 @@
+# --------------------------------------------------
+# How to Generate SSL Key
+# --------------------------------------------------
+
+# --------------------------------------------------
+# For Windows system (Local Development)
+# --------------------------------------------------
+# Run this command for install choco
+# Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+# Run this command for install mkcert
+# choco install mkcert
+# Run this command for install mkcert CA ROOT
+# mkcert -install
+# Run this command for generate cert and key
+# mkcert -key-file mkcert-ssl.key -cert-file mkcert-ssl.crt example.local *.example.local
+
+# install >> apk add openssl
+# install >> openssl dhparam -out dhparam.pem 2048 
