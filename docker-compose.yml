@@ -43,7 +43,7 @@ services:
       - "traefik.docker.network=proxy"
       - "traefik.http.routers.${APP_NAME}-nginx.rule=Host(`${NGINX_SERVER_NAME}`)"
       - "traefik.http.routers.${APP_NAME}-nginx.tls=true"
-      - "traefik.http.routers.${APP_NAME}-nginx.entrypoints=websecure"
+      # - "traefik.http.routers.${APP_NAME}-nginx.entrypoints=websecure"
       # - "traefik.http.routers.${APP_NAME}-nginx.tls.certresolver=myresolver"
       - "traefik.http.routers.${APP_NAME}-nginx.service=${APP_NAME}-nginx"
       - "traefik.http.services.${APP_NAME}-nginx.loadbalancer.server.port=80"
@@ -77,7 +77,7 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=proxy"
       - "traefik.http.routers.${APP_NAME}-phpmyadmin.rule=Host(`${PHPMYADMIN_HOST_NAME}`)"
-      - "traefik.http.routers.${APP_NAME}-phpmyadmin.tls=true"
+      # - "traefik.http.routers.${APP_NAME}-phpmyadmin.tls=true"
       # - "traefik.http.routers.${APP_NAME}-phpmyadmin.tls.certresolver=myresolver"
       - "traefik.http.routers.${APP_NAME}-phpmyadmin.entrypoints=websecure"
     networks:

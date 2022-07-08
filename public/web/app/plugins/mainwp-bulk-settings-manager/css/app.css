@@ -1,0 +1,8 @@
+.mainwp-ui .mainwp-widget-liquid-left .widget-inside {
+  padding: 1em;
+}
+ .mainwp-ui div.widget-liquid-left,
+ .mainwp-ui div.widget-liquid-right {
+   width: 49% !important;
+ }
+

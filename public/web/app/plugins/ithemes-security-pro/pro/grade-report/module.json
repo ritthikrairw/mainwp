@@ -1,0 +1,27 @@
+{
+  "id": "grade-report",
+  "status": "default-inactive",
+  "type": "site-check",
+  "title": "Grade Report",
+  "description": "See your WordPress security grade and fix issues.",
+  "user-groups": {
+    "group": {
+      "type": "multiple",
+      "title": "Enable Grade Report Access",
+      "description": "Allow users to view the Grade Report."
+    }
+  },
+  "settings": {
+    "type": "object",
+    "properties": {}
+  },
+  "removed-settings": [
+    "disabled_users"
+  ],
+  "scheduling": {
+    "check-grade-report": {
+      "type": "recurring",
+      "schedule": "twice-hourly"
+    }
+  }
+}
