@@ -1,0 +1,38 @@
+.mainwp-ui .mainwp-lighthouse-score.ui.label {
+  min-width: 4em !important;
+  min-height: 4em !important;
+  border-width: 1px !important;
+  padding-top: 1.4em !important;
+  cursor: pointer;
+}
+
+.mainwp-ui .mainwp-lighthouse-score.ui.label.green {
+  background-color: #f9ffea !important;
+}
+.mainwp-ui .mainwp-lighthouse-score.ui.label.red {
+  background-color: #ffe7e7 !important;
+}
+.mainwp-ui .mainwp-lighthouse-score.ui.label.yellow {
+  background-color: #fff8db !important;
+}
+
+.mainwp-score-scale {
+  border: 1px solid rgba( 0,0,0,.15 ) !important;
+  border-radius: 25px;
+  padding: 1em 2em;
+}
+
+#mainwp-lighthouse-desktop-screenshots,
+#mainwp-lighthouse-mobile-screenshots {
+  min-height: 130px;
+}
+
+@media screen and ( max-width: 767px ) {
+  #mainwp-lighthouse-sites-table tbody tr td.mainwp-site-cell,
+  #mainwp-lighthouse-sites-table tbody tr td.mainwp-url-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 185px;
+  }
+}

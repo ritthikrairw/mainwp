@@ -1,0 +1,27 @@
+#mainwp_time_capsule_screens_tab a{
+	text-decoration: none;
+}
+#the-time-capsule-list .plugin-update-tr .update-message {
+    margin:5px 20px 15px 40px;
+    background-color: #fff8e5;
+    border-left: 4px solid #ffb900;
+    padding: 1px 12px;
+}
+#the-time-capsule-list .plugin-update-tr .update-message p:before{
+    color: #f56e28;
+    content: "\f463";
+    margin-right: 6px;
+    margin-top: 6px;
+    vertical-align: bottom;
+}
+#mainwp_time_capsule_screens_tab ul.fancytree-container {
+    min-width: 320px !important;
+}
+
+.mainwp-ui #wpfooter {
+    position: absolute !important;
+}
+
+#wptc.wrap {
+	margin-left: 0;
+}

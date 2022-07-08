@@ -1,0 +1,9 @@
+@media screen and ( max-width: 767px ) {
+  #mainwp-sucuri-sites tbody tr td.mainwp-site-cell,
+  #mainwp-sucuri-sites tbody tr td.mainwp-url-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 185px;
+  }
+}

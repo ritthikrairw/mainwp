@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MainWP Clean and Lock\n"
+"POT-Creation-Date: 2017-10-31 18:12+0100\n"
+"PO-Revision-Date: 2017-10-31 18:32+0100\n"
+"Last-Translator: FreePixel <contact@freepixel.net>\n"
+"Language-Team: FreePixel\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: mainwp-clean-and-lock-extension\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: mainwp-clean-and-lock-extension.php\n"
+"X-Poedit-SearchPath-1: class/mainwp-clean-and-lock.class.php\n"
+
+#: class/mainwp-clean-and-lock.class.php:373
+msgid "Settings saved."
+msgstr "Réglages sauvegardés."
+
+#: class/mainwp-clean-and-lock.class.php:398
+#: mainwp-clean-and-lock-extension.php:111
+msgid "301 Redirect"
+msgstr "Redirection 301"
+
+#: class/mainwp-clean-and-lock.class.php:403
+msgid "301 Redirect URL"
+msgstr "URL de redirection 301"
+
+#: class/mainwp-clean-and-lock.class.php:406
+msgid ""
+"Enter URL where you want to redirect all not-wp-admin pages of your "
+"dashboard site."
+msgstr ""
+"Entrez l'URL où vous souhaitez rediriger toutes les pages non-wp-admin de "
+"votre tableau de bord du site."
+
+#: class/mainwp-clean-and-lock.class.php:410
+msgid "Exclude slug from redirection"
+msgstr "Exclure le slug de la redirection"
+
+#: class/mainwp-clean-and-lock.class.php:410
+msgid "For example: /wp-login.php, /page-slug/,... To exclude homepage, add /"
+msgstr ""
+"Par exemple : /wp-login.php, /page-slug/,... Pour exclure la page d'accueil, "
+"ajoutez /"
+
+#: class/mainwp-clean-and-lock.class.php:413
+msgid "One URL per line"
+msgstr "Une URL par ligne"
+
+#: class/mainwp-clean-and-lock.class.php:422
+msgid "Dashboard Lock Down"
+msgstr "Verrouillage du tableau de bord"
+
+#: class/mainwp-clean-and-lock.class.php:427
+msgid "Allow login from"
+msgstr "Autoriser la connexion depuis "
+
+#: class/mainwp-clean-and-lock.class.php:427
+msgid "This feature will allow login only from the whitelisted IP Addresses"
+msgstr ""
+"Cette fonctionnalité permettra la connexion uniquement à partir des adresses "
+"IP de la liste blanche"
+
+#: class/mainwp-clean-and-lock.class.php:430
+msgid "We detect your current IP to be:"
+msgstr "Nous détectons votre IP actuelle comme : "
+
+#: class/mainwp-clean-and-lock.class.php:431
+msgid "Enter IP Address you want to allow. Enter 1 Address per row."
+msgstr ""
+"Entrez l'adresse IP que vous souhaitez autoriser. Entrez 1 adresse par ligne."
+
+#: class/mainwp-clean-and-lock.class.php:435
+msgid "WP-Admin Lock"
+msgstr "Blocage de WP-Admin"
+
+#: class/mainwp-clean-and-lock.class.php:435
+msgid "This feature will password protect WordPress Admin (/wp-admin/) area."
+msgstr ""
+"Cette fonctionnalité permettra de protéger par mot de passe l'administration "
+"WordPress (/ wp-admin /)."
+
+#: class/mainwp-clean-and-lock.class.php:437
+#: class/mainwp-clean-and-lock.class.php:448
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: class/mainwp-clean-and-lock.class.php:438
+msgid "User for wp-admin folder"
+msgstr "Utilisateur pour le dossier wp-admin"
+
+#: class/mainwp-clean-and-lock.class.php:441
+#: class/mainwp-clean-and-lock.class.php:452
+msgid "Password"
+msgstr "Mot de passe"
+
+#: class/mainwp-clean-and-lock.class.php:442
+msgid "The Password for the wp-admin folder"
+msgstr "Le mot de passe pour le dossier wp-admin"
+
+#: class/mainwp-clean-and-lock.class.php:446
+msgid "WP-Login.php Lock"
+msgstr "Blocage de WP-Login.php"
+
+#: class/mainwp-clean-and-lock.class.php:446
+msgid ""
+"This feature will password protect WordPress Login (/wp-login.php/) page."
+msgstr ""
+"Cette fonctionnalité protégera par mot de passe la page de  connexion "
+"WordPress (/wp-login.php/)."
+
+#: class/mainwp-clean-and-lock.class.php:449
+msgid "User for the file wp-login.php"
+msgstr "Utilisateur pour le fichier wp-login.php"
+
+#: class/mainwp-clean-and-lock.class.php:453
+msgid "The Password for the file wp-login.php"
+msgstr "Le mot de passe pour le fichier wp-login.php"
+
+#: class/mainwp-clean-and-lock.class.php:457
+msgid "Unlock Dashboard"
+msgstr "Débloquer le tableau de bord"
+
+#: class/mainwp-clean-and-lock.class.php:459
+msgid "Unlock"
+msgstr "Débloquer"
+
+#: class/mainwp-clean-and-lock.class.php:460
+msgid ""
+"Use the Unlock button to unlock your Dashboard site. It will remove all "
+"restrictions from your .htaccess files (Allowed IP Addresses, WP-Admin and "
+"WP-login.php locks)"
+msgstr ""
+"Utilisez le bouton Déverrouiller pour déverrouiller votre Tableau de bord du "
+"site. Il supprimera toutes les restrictions de vos fichiers .htaccess "
+"(adresses IP autorisées, verrous WP-Admin et WP-login.php)"
+
+#: class/mainwp-clean-and-lock.class.php:470
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: class/mainwp-clean-and-lock.class.php:471
+msgid "Posts"
+msgstr "Articles"
+
+#: class/mainwp-clean-and-lock.class.php:472
+msgid "Media"
+msgstr "Média"
+
+#: class/mainwp-clean-and-lock.class.php:473
+msgid "Pages"
+msgstr "Pages"
+
+#: class/mainwp-clean-and-lock.class.php:474
+msgid "Appearance"
+msgstr "Apparence"
+
+#: class/mainwp-clean-and-lock.class.php:475
+msgid "Comments"
+msgstr "Commentaires"
+
+#: class/mainwp-clean-and-lock.class.php:476
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: class/mainwp-clean-and-lock.class.php:477
+msgid "Tools"
+msgstr "Outils"
+
+#: class/mainwp-clean-and-lock.class.php:482
+msgid "Dashboard Site Cleanup"
+msgstr "Nettoyage du tableau de bord du site"
+
+#: class/mainwp-clean-and-lock.class.php:487
+msgid "Hide WP Menus"
+msgstr "Masquer les menus WP"
+
+#: class/mainwp-clean-and-lock.class.php:509
+msgid "Save Settings"
+msgstr "Sauvegarder les paramètres"
+
+#: class/mainwp-clean-and-lock.class.php:520
+msgid ""
+"If you want to redirect all fron-end pages of your MainWP Dashboard site to "
+"a custom URL, enter the URL here."
+msgstr ""
+"Si vous souhaitez rediriger toutes les pages frontales de votre Tableau de "
+"bord du site MainWP vers une URL personnalisée, entrez l'URL ici."
+
+#: class/mainwp-clean-and-lock.class.php:523
+msgid ""
+"If you want to exlude certain pages from the redirection rule, enter pages "
+"here."
+msgstr ""
+"Si vous souhaitez exclure certaines pages de la règle de redirection, entrez "
+"les pages ici."
+
+#: class/mainwp-clean-and-lock.class.php:526
+msgid ""
+"If you want to allow login only from certain IP addresses, enter IPs here."
+msgstr ""
+"Si vous souhaitez autoriser la connexion uniquement à partir de certaines "
+"adresses IP, entrez les adresses IP ici."
+
+#: class/mainwp-clean-and-lock.class.php:529
+msgid ""
+"To lock your WP Admin area with the Basic HTTP Authentication, enter the "
+"wanted Username here."
+msgstr ""
+"Pour verrouiller votre zone d'administration WP avec l'authentification HTTP "
+"de base, entrez le nom d'utilisateur souhaité ici."
+
+#: class/mainwp-clean-and-lock.class.php:532
+msgid ""
+"To lock your WP Admin area with the Basic HTTP Authentication, enter the "
+"wanted Password here."
+msgstr ""
+"Pour verrouiller votre zone d'administration WP avec l'authentification HTTP "
+"de base, entrez le mot de passe souhaité ici."
+
+#: class/mainwp-clean-and-lock.class.php:535
+msgid ""
+"To lock your WP Login page with the Basic HTTP Authentication, enter the "
+"wanted Username here."
+msgstr ""
+"Pour verrouiller votre page de connexion WP avec l'authentification HTTP de "
+"base, entrez le nom d'utilisateur voulu ici."
+
+#: class/mainwp-clean-and-lock.class.php:538
+msgid ""
+"To lock your WP Login page with the Basic HTTP Authentication, enter the "
+"wanted Password here."
+msgstr ""
+"Pour verrouiller votre page de connexion WP avec l'authentification HTTP de "
+"base, entrez le mot de passe souhaité ici."
+
+#: class/mainwp-clean-and-lock.class.php:541
+msgid "This button will remove all lock down rules from your MainWP Dashboard."
+msgstr ""
+"Ce bouton supprimera toutes les règles de verrouillage de votre tableau de "
+"bord MainWP."
+
+#: class/mainwp-clean-and-lock.class.php:544
+msgid ""
+"If you want to hide unwanted WP Admin menus, select ones that you want to "
+"hide."
+msgstr ""
+"Si vous souhaitez masquer les menus indésirables de WP Admin, sélectionnez "
+"ceux que vous souhaitez masquer."
+
+#: class/mainwp-clean-and-lock.class.php:547
+msgid "Need help getting started? "
+msgstr "Besoin d'aide pour démarrer ? "
+
+#: class/mainwp-clean-and-lock.class.php:547
+msgid "Start the Tour!"
+msgstr "Commencez la présentation !"
+
+#: mainwp-clean-and-lock-extension.php:77
+#: mainwp-clean-and-lock-extension.php:98
+msgid "First Steps with Extensions"
+msgstr "Premières étapes avec des extensions"
+
+#: mainwp-clean-and-lock-extension.php:82
+#: mainwp-clean-and-lock-extension.php:109
+#: mainwp-clean-and-lock-extension.php:110
+msgid "MainWP Clean and Lock Extension"
+msgstr "Extension MainWP Nettoyer & verrouiller"
+
+#: mainwp-clean-and-lock-extension.php:99
+msgid ""
+"If you are having issues with getting started with the MainWP extensions, "
+"please review following help documents"
+msgstr ""
+"Si vous rencontrez des problèmes avec les extensions MainWP, veuillez "
+"consulter les documents d'aide suivants"
+
+#: mainwp-clean-and-lock-extension.php:100
+msgid "What are the MainWP Extensions"
+msgstr "Quelles sont les extensions MainWP"
+
+#: mainwp-clean-and-lock-extension.php:101
+msgid "Order Extension(s)"
+msgstr "Commande extension(s)"
+
+#: mainwp-clean-and-lock-extension.php:102
+msgid "My Downloads and API Keys"
+msgstr "Mes téléchargements et clés API"
+
+#: mainwp-clean-and-lock-extension.php:103
+msgid "Install Extension(s)"
+msgstr "Installer extension(s)"
+
+#: mainwp-clean-and-lock-extension.php:104
+msgid "Activate Extension(s) API"
+msgstr "Activer API extension(s)"
+
+#: mainwp-clean-and-lock-extension.php:105
+msgid "Updating Extension(s)"
+msgstr "Mise à jour extension(s)"
+
+#: mainwp-clean-and-lock-extension.php:106
+msgid "Remove Extension(s)"
+msgstr "Supprimer extension(s)"
+
+#: mainwp-clean-and-lock-extension.php:107
+msgid "Help Documenation for all MainWP Extensions"
+msgstr "Documentation d'aide pour toutes les extensions MainWP"
+
+#: mainwp-clean-and-lock-extension.php:112
+msgid "Dashboard Lockdown"
+msgstr "Verrouillage du tableau de bord"
+
+#: mainwp-clean-and-lock-extension.php:113
+msgid "Dashboard Cleanup"
+msgstr "Nettoyage tableau de bord"
+
+#: mainwp-clean-and-lock-extension.php:114
+msgid "Remove Dashboard Locks"
+msgstr "Supprimer les verrous du tableau de bord"
+
+#: mainwp-clean-and-lock-extension.php:115
+msgid "HTTP Basic Authentication Not Working"
+msgstr "L'authentification de base HTTP ne fonctionne pas"
+
+#: mainwp-clean-and-lock-extension.php:229
+msgid ""
+"requires <a href=\"http://mainwp.com/\" target=\"_blank\">MainWP Dashboard "
+"Plugin</a> to be activated in order to work. Please install and activate <a "
+"href=\"http://mainwp.com/\" target=\"_blank\">MainWP Dashboard Plugin</a> "
+"first."
+msgstr ""
+"requier <a href=\"http://mainwp.com/\" target=\"_blank\">l'extension de "
+"tableau de bord MainWP</a> être activé pour travailler. Veuillez installer "
+"et activer <a href=\"http://mainwp.com/\" target=\"_blank\">l'extension de "
+"tableau de bord MainWP</a> en premier."

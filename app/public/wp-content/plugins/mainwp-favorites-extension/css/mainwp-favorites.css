@@ -1,0 +1,23 @@
+#mainwp-favorite-plugins,
+#mainwp-favorite-themes {
+	padding: 0;
+}
+
+#mainwp-favorite-plugins .mainwp-main-content,
+#mainwp-favorite-themes .mainwp-main-content {
+	padding: 0em;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.ui[class*="tablet stackable"].table.mainwp-favorites-table > thead > tr > th:not(.rowspanned),
+	.ui[class*="tablet stackable"].table.mainwp-favorites-table > tbody > tr > td:not(.rowspanned),
+	.ui[class*="tablet stackable"].table.mainwp-favorites-table > tfoot > tr > th:not(.rowspanned) {
+		width: auto !important;
+	}
+
+	.ui.table.mainwp-favorites-table .ui.mini.button {
+		width: 100% !important;
+		display: block !important;
+ 	}
+}
