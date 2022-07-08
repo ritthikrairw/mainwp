@@ -1,3 +1,0 @@
-{
-  "extends": "./core/packages/webpack/src/babel.config.json"
-}
