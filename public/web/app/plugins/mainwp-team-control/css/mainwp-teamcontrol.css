@@ -1,0 +1,10 @@
+#mainwp-team-control-users-tab {
+	padding: 0;
+}
+#mainwp-team-control-users-tab .mainwp-main-content {
+	padding-right: 0;
+}
+
+.mainwp-sidebar-left #mainwp-team-control-users-tab .mainwp-main-content {
+	padding-left: 0;
+}

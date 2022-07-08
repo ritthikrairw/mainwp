@@ -3,43 +3,64 @@
 system/logs
 system/data
 
-# ignore WordPress
-app/public/wp-config.php
-app/public/wp-content/cache
-## app/public/wp-content/themes/twenty*
-app/public/wp-content/uploads/wc-logs
-app/public/wp-content/uploads/wp-migrate-db*
+### Application
+# public/web/app/plugins/*
+!public/web/app/plugins/.gitkeep
+public/web/app/mu-plugins/*/
+public/web/app/upgrade
+public/web/app/uploads/*
+public/web/app/themes/twenty*
+!public/web/app/uploads/.gitkeep
+public/web/app/cache/*
 
-# ignore Plugins
-app/public/wp-content/ai1wm-backups
-app/public/wp-content/plugins/what-the-file
-app/public/wp-content/plugins/query-monitor
-app/public/wp-content/plugins/wp-migrate-db
-app/public/wp-content/plugins/all-in-one-wp-migration
-app/public/wp-content/languages/plugins/all-in-one-wp-migration*
-app/public/wp-content/mu-plugins/wp-migrate-db-pro-compatibility.php
+### WordPress
+public/web/wp
+public/web/.htaccess
 
-# ignore Backup
-app/public/wp-content/backup*
-app/public/wp-content/uploads/backwpup-*
+### Dotenv
+.env
+.env.*
+!.env.example
 
-# etc.
-app/public/wp-content/uploads/rsssl
+### Composer
+/vendor
 
-# ignore node dependency directories
+### WP-CLI
+wp-cli.local.yml
+
+### ignore WordPress
+public/web/app/cache
+# public/web/app/themes/twenty*
+public/web/app/uploads/wc-logs
+public/web/app/uploads/wp-migrate-db*
+
+### ignore Plugins
+public/web/app/plugins/what-the-file
+public/web/app/plugins/query-monitor
+public/web/app/plugins/wp-migrate-db
+public/web/app/plugins/all-in-one-wp-migration
+public/web/app/mu-plugins/wp-migrate-db-pro-compatibility.php
+
+### ignore Languages
+public/web/app/languages/plugins/all-in-one-wp-migration*
+
+### ignore Backups
+public/web/app/ai1wm-backups
+public/web/app/backup*
+public/web/app/uploads/backwpup-*
+
+### etc.
+public/web/app/uploads/rsssl
+
+### ignore node dependency directories
 node_modules/
 
-# ignore log files and databases
+### ignore log files and databases
 *.log
 *.sql
 *.sqlite
 
-# ignore log files and databases
-*.log
-*.sql
-*.sqlite
-
-# ignore compiled files
+### ignore compiled files
 *.com
 *.class
 *.dll
@@ -48,7 +69,7 @@ node_modules/
 *.so
 *.DS_Store
 
-# ignore packaged files
+### ignore packaged files
 *.7z
 *.dmg
 *.gz
@@ -58,5 +79,5 @@ node_modules/
 *.tar
 *.zip
 
-
+### Etc.
 !shared/databases/*

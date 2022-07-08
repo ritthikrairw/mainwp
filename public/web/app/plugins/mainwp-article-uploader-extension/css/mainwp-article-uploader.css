@@ -1,0 +1,4 @@
+#mainwp-article-uploader { padding: 0; }
+#mainwp-article-uploader-upload .mainwp-main-content { padding: 1em; }
+#mainwp-article-uploader-import .mainwp-main-content { padding: 0; }
+#mainwp-article-uploader #mainwp-article-uploader-import .mainwp-main-content { padding: 0; }

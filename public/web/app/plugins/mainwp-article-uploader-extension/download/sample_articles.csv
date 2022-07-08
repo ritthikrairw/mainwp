@@ -1,0 +1,92 @@
+TITLE: Article 1 Demo
+POST TYPE: post
+AUTHOR: Demo Author
+CATEGORIES: Demo Category
+TAGS: Tag 1, Tag 2
+SLUG: article-1-demo-slug
+EXCERPT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lorem eu purus gravida consequat. 
+Integer cursus arcu ipsum, mollis volutpat dolor adipiscing vel. Quisque ornare 
+orci non vehicula lobortis.
+BODY: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lorem eu purus gravida consequat. 
+Integer cursus arcu ipsum, mollis volutpat dolor adipiscing vel. Quisque ornare 
+orci non vehicula lobortis. Quisque eget turpis vitae nisi condimentum fringilla 
+non vel ligula. Nam eget ornare velit. Integer tortor neque, tincidunt et convallis eu, cursus in risus. 
+Vivamus ornare sagittis leo non fermentum. Fusce molestie, erat vel interdum iaculis, enim libero viverra ipsum, 
+porttitor luctus velit mi ut diam. Sed sit amet magna arcu. 
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+Proin faucibus tincidunt sapien, eu aliquam augue. 
+ALLOW COMMENTS: 1
+ALLOW PINGBACKS: 1
+SITES: all
+
+[NEW]
+
+TITLE: Article 2 Demo
+POST TYPE: post
+AUTHOR: Demo Author
+CATEGORIES: Demo Category
+TAGS: Tag 3, Tag 4
+SLUG: article-2-demo-slug
+EXCERPT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lorem eu purus gravida consequat. 
+Integer cursus arcu ipsum, mollis volutpat dolor adipiscing vel. Quisque ornare 
+orci non vehicula lobortis.
+BODY: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lorem eu purus gravida consequat. 
+Integer cursus arcu ipsum, mollis volutpat dolor adipiscing vel. Quisque ornare 
+orci non vehicula lobortis. Quisque eget turpis vitae nisi condimentum fringilla 
+non vel ligula. Nam eget ornare velit. Integer tortor neque, tincidunt et convallis eu, cursus in risus. 
+Vivamus ornare sagittis leo non fermentum. Fusce molestie, erat vel interdum iaculis, enim libero viverra ipsum, 
+porttitor luctus velit mi ut diam. Sed sit amet magna arcu. 
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+Proin faucibus tincidunt sapien, eu aliquam augue. 
+ALLOW COMMENTS: 1
+ALLOW PINGBACKS: 0
+SITES: http://yourchilsite1.com/, http://yourchilsite2.com/
+
+
+[NEW]
+
+TITLE: Page 1 Demo
+POST TYPE: page
+AUTHOR: Demo Author
+TAGS: 
+SLUG: page-1-demo-slug
+EXCERPT:
+BODY: Nullam mollis justo tempus est fringilla suscipit. Ut suscipit arcu nec turpis pharetra, 
+vel eleifend enim varius. Fusce a ligula laoreet, viverra nunc quis, 
+lobortis nulla. Praesent rhoncus nec risus ornare laoreet. Vivamus viverra adipiscing tortor et posuere. 
+Nam vitae elit dolor. Duis blandit bibendum risus a tempor. Nam in purus nulla. 
+Morbi hendrerit ac enim sit amet bibendum. Cras nec molestie lacus. Quisque a consequat nulla. 
+Suspendisse vitae odio ut eros tincidunt tincidunt. In vehicula dapibus dui eget gravida. Sed ligula dui, 
+facilisis faucibus rutrum vel, placerat euismod ante. Etiam ultricies auctor sem et iaculis. 
+Maecenas gravida lorem ac dui fringilla pharetra. 
+ALLOW COMMENTS: 0
+ALLOW PINGBACKS: 0
+SITES: http://yourchilsite1.com/, http://yourchilsite2.com/
+
+[NEW]
+
+TITLE:
+POST TYPE:
+AUTHOR:
+TAGS:
+SLUG:
+EXCERPT:
+BODY:
+ALLOW COMMENTS:
+ALLOW PINGBACKS:
+SITES:
+
+[NEW]
+
+TITLE:
+POST TYPE:
+AUTHOR:
+TAGS: 
+SLUG:
+EXCERPT:
+BODY:
+ALLOW COMMENTS: 
+ALLOW PINGBACKS: 
+SITES:
+
+[NEW]
